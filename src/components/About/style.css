@@ -1,0 +1,110 @@
+.mission p{
+    font-size: 18px;
+    margin-left: 10%;
+    }
+    .about{
+    display: flex;
+    margin-left: 3%;
+    }
+    .title > h2{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 40px;
+    }
+    .about .image{
+    border-radius: 20px;
+    height: 50vh;
+    margin-left: 15%;
+    }
+    .about .mission{
+    width: 50%;
+    /* border: solid 1px tomato; */
+    margin-left: 5%;
+    }
+    .mission > p{
+    margin-top: 10%;
+    font-size: 24px;
+    text-align: left;
+    }
+  @media (max-width: 414px) {
+    .mission > p {
+        font-size: 18px;
+        margin:0 5%;
+        width: 100%;
+    }
+    .about {
+        display: block;
+        margin-left: 0;
+    }
+    .title > h2 {
+        font-size: 26px;
+    }
+    .about .image {
+        width: 350px;
+        margin-left:20px ;
+    }
+    .about .mission {
+        width: 100%;
+        margin: 5% 0;
+    }
+    .mission > p {
+        font-size: 20px;
+        margin-top: 5%;
+        margin-right: 0;
+    }
+
+    .title{
+      margin-right: 5%;
+    }
+}
+@media (max-width: 1024px) {
+    body {
+    }
+    .mission p {
+      font-size: 14px;
+      margin-right:50px ;
+    }
+    .about {
+      display: block;
+      margin-left: 5%;
+    }
+    .title h2 {
+      font-size: 28px;
+      margin-top: 2rem;
+    }
+    .about .image {
+      border-radius: 10px;
+      height: 300px;
+      /* max-width: 100%; */
+      /* width: 350px; */
+      margin-left: 10px;
+    }
+    .about .mission {
+      width: 100%;
+      margin-left: 0;
+    }
+    .mission > p {
+      margin-top: 5%;
+      font-size: 20px;
+    }
+
+    .title{
+      .title{
+        margin-right: 5%;
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

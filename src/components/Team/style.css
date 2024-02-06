@@ -1,0 +1,44 @@
+.team-images > img{
+    width: 60%;
+    border-radius: 100px;
+   
+    }
+    .team-images > p{
+        color: rgb(32, 31, 31);
+        font-size: 20px;
+    }
+    .team{
+    display: flex;
+    margin: 5%;
+    text-align: center;
+    }
+    .team-section >h3 {
+    text-align: center;
+    font-weight: bolder;
+    
+    }
+
+    h3{
+        color: rgb(32, 31, 31);
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    @media (max-width: 414px) {
+    .team-images > img {
+    width: 50%;
+    border-radius: 50%;
+    }
+    .team {
+    flex-direction: column;
+    margin-left: 10%;
+    text-align: center;
+    align-items: center;
+    margin-left: 0;
+    }
+    .team-section > h3 {
+    font-size: 24px;
+    font-weight: bold;
+    }
+    }
